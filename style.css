@@ -22,7 +22,6 @@
   }
 
 header {
-    background: #F39237;
     width: auto;
     margin: 0px;
     padding: 0px;
@@ -34,19 +33,26 @@ body {
 
 footer {
     background: #BF1363;
+    margin: 0px;
+    padding: 25px;
 }
 
-h1, h2, h3, ol {
+h1, h2, h3, p, ol, uo {
     color: #000000;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 h1 {
     font-size: 60px;
+    margin-top: 0px;
+    padding-top: 50px;
 }
 
 h2 {
     font-size: 40x;
+    margin-top: 0px;
+    padding: 25px;
+    
 }
 
 h3 {
@@ -55,17 +61,38 @@ h3 {
 
 p {
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px; 
 }
 
 ol {
+    color: #ffffff;
     font-size: 15px;
 }
 
-a:link    { color: #BF1363;  }
+uo {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0px;
+    margin: 25px;
+}
+
+hr {
+    margin: 25px;
+}
+
+a:link    { color: #e4d2da;  }
 a:hover   { color: #000000; }
 
 img {
+    padding: 50px;
     width: 500px;
+}
+
+.top-banner {
+    background: #F39237;
+}
+
+.wrapper {
+    width: 700px;
+    margin: auto;
 }
