@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
+/* centering all the text on the page */
+
 .center-text {
     text-align: center;
 }
+
+/* creating a button for top page links */
 
 .btn {
     display: inline-block;
@@ -19,6 +23,11 @@
     background-color: #d87d15;
     border-color: #d87d15;
   }
+
+a:link    { color: #EF767A;  }
+a:hover   { color: #000000; }
+
+/* semantic containers */
 
 header {
     width: auto;
@@ -35,6 +44,8 @@ footer {
     margin: 0px;
     padding: 25px;
 }
+
+/* text formatting */
 
 h1, h2, h3, p, ol, ul {
     color: #392F5A;
@@ -76,12 +87,13 @@ ul {
     margin: 25px;
 }
 
+/* horizontal line */
+
 hr {
     margin: 25px;
 }
 
-a:link    { color: #EF767A;  }
-a:hover   { color: #000000; }
+/* image, banner, and wrapper */
 
 img {
     padding: 50px;
