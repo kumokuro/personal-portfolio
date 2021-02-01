@@ -36,7 +36,7 @@ footer {
     padding: 25px;
 }
 
-h1, h2, h3, p, ol, uo {
+h1, h2, h3, p, ol, ul {
     color: #392F5A;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -69,7 +69,7 @@ ol {
     list-style-position: inside;
 }
 
-uo {
+ul {
     color: #392F5A;
     font-size: 20px;
     padding: 0px;
